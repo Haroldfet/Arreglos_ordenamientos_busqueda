@@ -20,13 +20,13 @@ public class BusquedasApplication {
         }
 
         // 2. Imprimir arreglo original
-        System.out.println("Arreglo original:");
+        System.out.println("Original:");
         imprimirArreglo(arreglo);
 
         // 3. Ordenar por inserción
         int[] arregloOrdenado = arreglo.clone();
         OrdenamientoInsercion.ordenar(arregloOrdenado);
-        System.out.println("Arreglo ordenado:");
+        System.out.println("Ordenado:");
         imprimirArreglo(arregloOrdenado);
 
         // 4. Pedir número a buscar
